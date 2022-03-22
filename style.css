@@ -1,4 +1,18 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vh;
+    justify-content: center;
+    background-color: #F5F6FA;
+}
+
 #square {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 400px;
     width: 400px;
     border: 1px solid black;
@@ -25,4 +39,6 @@
 .line {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
